@@ -1,0 +1,16 @@
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+
+.env
+.venv
+
+migrations/*.py
+*/migrations/*.py
+*/*/migrations/*.py
+
+!migrations/__init__.py
+!*/migrations/__init__.py
+!*/*/migrations/__init__.py
+
+.git_credentials
